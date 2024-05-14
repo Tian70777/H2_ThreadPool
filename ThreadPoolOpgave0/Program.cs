@@ -45,6 +45,12 @@ class ThreadPoolDemo
              */
             // ThreadPool.QueueUserWorkItem(tpd.task1);
             // ThreadPool.QueueUserWorkItem(tpd.task2);
+
+            /*
+             * Both approaches essentially do the same thing. 
+             * The C# compiler automatically creates a WaitCallback delegate behind the scenes. 
+             * So, functionally, there's no difference between the two approaches.
+             * */
         }
 
         // Venter på brugerinput for at holde konsollen åben
